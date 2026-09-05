@@ -1,0 +1,23 @@
+# Python
+myvenv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Editor (keep shared settings, ignore local overrides)
+.vscode/*
+!.vscode/settings.json
